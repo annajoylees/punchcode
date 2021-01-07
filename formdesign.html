@@ -1,0 +1,167 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+        <html lang=”en”>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form Design</title>
+                    
+<style>
+
+
+
+body {
+	position: absolute;
+    padding: 10px;
+    align-content: center;
+}
+
+form {
+    position: absolute;
+    width: 1025px;
+    height: 616px;
+    padding: 10px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Arial";
+    font-variant-caps: all-small-caps;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+		background-color: #5BA2D5;
+
+}
+
+div {
+	display: flex;
+	flex-direction: column;
+    justify-content: space-around;
+}
+
+.sec1 {
+    height: 620px;
+    width: 300px;
+
+}
+
+.sec2 {
+    height: 620px;
+    width: 300px;	
+}
+
+.sec3 {
+    height: 620px;
+    width: 300px;
+
+}
+
+input, select {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+input, option, select{
+    border: 2px solid white;
+    background-color: #5BA2D5;
+    font-size: 18px;
+    color: white;
+}
+
+
+
+#bio, #aff, #comm {
+    padding-bottom: 40px;
+}
+
+input:focus {
+	outline: none;
+	border-color: #2B6998;
+    
+}
+
+input::placeholder {
+    font-style: italic;
+    color: #555555;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+select, option {
+	width: 300px;
+}
+
+
+    
+</style>
+
+
+    </head>
+		<body>
+		
+    <form>
+			<section class="sec1">
+        <div>
+            <label for="first">first name</label>
+            <input type="text" id="first" name="first" placeholder="John">
+			</div><div>
+            <label for="last">last name</label>
+			<input type="text" id="last" name="last" placeholder="Doe"></div><div>
+            <label for="email">email address</label>
+			<input type="text" id="email" name="email" placeholder="johndoe@email.com"></div>
+           <div> <label for="country">country</label>
+                <select name="country" id="country">
+                <option value="">Choose a country</option>
+                <option value="USA">USA</option>
+                <option value="Canada">Canada</option>
+						 </select></div><div>
+            <label for="bio">biography</label>
+            <input type="text" id="bio" name="biography">
+        </div>
+			</section>
+			<section class="sec2">
+        <div>
+            <label for="phone">phone number</label>
+			<input type="text" id="phone" name="phone" placeholder="+351 999 9999"></div><div>
+            <label for="aff">affiliations</label>
+			<input type="text" id="aff" name="affiliations"></div><div>
+            <label for="occ">occupation</label>
+                <select name="occupation" id="occ">
+                <option value="">Choose an occupation</option>
+                <option value="pro">Programmer</option>
+                <option value="dev">Developer</option>
+                <option value="web">Web designer</option>
+			</select></div><div>
+            <label for="cat">cat's name</label>
+			<input type="text" id="cat" name="cats-name" placeholder="Kitty"></div><div>
+            <label for="gadget">favorite gadget</label>
+            <input type="text" id="gadget" name="favorite-gadget" placeholder="Annoy-a-tron">
+				</div></section>
+			<section class="sec3">
+        <div>
+            <label for="talent">type of talent</label>
+                <select name="talent" id="talent">
+                <option value="">Choose a talent</option>
+                <option value="pro">Coding</option>
+                <option value="dev">Developing</option>
+                <option value="web">Designing</option>
+					</select></div><div>
+            <label for="drink">favorite drink</label>
+			<input type="text" id="drink" name="favorite-drink" placeholder="Green tea"></div><div>
+            <label for="power">special power</label>
+			<input type="text" id="power" name="special-power" placeholder="Anti-gravity"></div><div>
+            <label for="weapon">weapon of choice</label>
+			<input type="text" id="weapon" name="weapon" placeholder="Lightsaber"></div><div>
+            <label for="comm">comments</label>
+            <input type="text" id="comm" name="comments">
+        </div>
+				</section>
+    </form>
+
+</body>
+</html>   

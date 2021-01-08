@@ -1,0 +1,92 @@
+body {
+	position: absolute;
+    padding: 10px;
+    align-content: center;
+}
+
+form {
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    width: 1025px;
+    height: 616px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Arial";
+    font-variant-caps: all-small-caps;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+	background-color: #5BA2D5;
+
+}
+
+div {
+	display: flex;
+	flex-direction: column;
+    justify-content: space-around;
+}
+
+.sec1 {
+    height: 620px;
+    width: 325px;
+
+}
+
+.sec2 {
+    height: 620px;
+    width: 325px;	
+}
+
+.sec3 {
+    height: 620px;
+    width: 325px;
+
+}
+
+input, select {
+    margin-top: 5px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+input, option, select{
+    border: 2px solid white;
+    background-color: #5BA2D5;
+    font-size: 16px;
+    color: white;
+    
+}
+
+#bio, #aff, #comm {
+    padding-bottom: 40px;
+}
+
+input:focus {
+	outline: none;
+	border-color: #2B6998;
+    
+}
+
+input::placeholder {
+    font-style: italic;
+    color: #555555;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+select, option {
+    padding: 0;
+    padding-left: 5px;
+    height: 25px;
+	width: 325px;
+    border-radius: 10px;
+}

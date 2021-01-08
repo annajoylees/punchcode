@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    height: 75px;
+    margin: auto;
+    padding-right: 225px;
+    padding-left: 225px;
+    background-color: black;
+}
+
+p.alignleft {
+    float: left;
+    color: white;
+    font: 16px "Arial";
+    font-weight: bold;
+}
+
+p.alignright {
+    float; right;
+    color: white;
+    font: 16px "Arial";
+    font-weight: bold;
+    word-spacing: 80px;
+}
+
+
+img {
+    width: 100%;
+}

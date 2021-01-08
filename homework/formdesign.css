@@ -70,7 +70,12 @@ input, option, select{
 
 input:focus {
 	outline: none;
-	border-color: #2B6998;
+    border: 2px solid #2B6998;
+    font-family: "Arial";
+    font-size: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    color: white;
     
 }
 

@@ -1,0 +1,208 @@
+
+body {
+    background: linear-gradient( rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5) ),url(/assets/bg.jpg);
+    max-width: 100%;
+    max-height: 100%;
+    background-size: cover;
+}
+
+header,
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 650px;
+}
+
+.sub {
+    padding-left: 325px;
+    font-family: 'Hind', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    color: white;
+}
+
+.social img {
+    width: 40px;
+    border-bottom: 3px solid #a5a5a5;
+}
+
+#dots {
+    width: 15px;
+    margin: auto;
+    border: 0px;
+}
+
+nav p {
+    background-color: #B4292E;
+    width: 135px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Hind', sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    color: white;
+    border-bottom: 3px solid #a5a5a5;
+}
+
+.top {
+    position: relative;
+    background-image: url(/assets/top-image.png);
+    background-size: 150%;
+    background-position: 15% 30%;
+    width: 650px;
+    height: 250px;
+    margin: 0 auto;
+    border: 5px solid white;
+}
+
+.grid {
+    position: absolute;
+    background-image: url(/assets/grid.png);
+    background-size: cover;
+    width: 650px;
+    height: 250px;
+    margin: 0 auto;
+    opacity: 0.3;
+}
+
+.logo {
+    position: absolute;
+    right: 50px;
+    background-image: url(/assets/peralta-logo.png);
+    background-position: 15% 30%;
+    background-repeat: no-repeat;
+    background-size: 280px;
+    width: 100%;
+    height: 100%;
+}
+
+.button {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 60px;
+    height: 10px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.article1 {
+    display: flex;
+    justify-content: space-between;
+    width: 660px;
+    height: 230px;
+    margin: 0 auto;
+}
+
+.block1, .block2, .block3 {
+    width: 210px;
+    height: 270px;
+    background-color: white;
+}
+
+article h1 {
+    font-family: 'Hind', sans-serif;
+    color: black;
+    font-size: 18px;
+    line-height: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: -5px;
+}
+
+.date {
+    font-family: 'Hind', sans-serif;
+    color: lightgrey;
+    font-size: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: -5px;
+}
+
+.text {
+    font-family: 'Hind', sans-serif;
+    color: black;
+    font-size: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: -5px;
+    line-height: 100%;
+    padding-bottom: 15px;
+}
+
+article a {
+    font-family: 'Hind', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #B6292A;
+    text-transform: uppercase;
+    margin: 50px;
+}
+
+article a:visited {
+    font-family: 'Hind', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #B6292A;
+    text-transform: uppercase;
+    margin: 50px;
+}
+
+.article2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 660px;
+    height: 500px;
+    margin: 0 auto;
+    padding-top: 30px;
+
+}
+
+.photo1 {
+    position: relative;
+    bottom: 63px;
+    background-position: 150%;
+    background-image: url(/assets/sk8er-4.png);
+    background-size: cover;
+    width: 210px;
+    height: 125px;
+    border: 3px solid white;
+}
+.photo2 {
+    position: relative;
+    bottom: 63px;
+    background-image: url(/assets/sk8er-3.png);
+    background-size: cover;
+    width: 210px;
+    height: 125px;
+    border: 3px solid white;
+}
+.photo3 {
+    position: relative;
+    top: 6px;
+    background-image: url(/assets/sk8er-2.png);
+    background-size: 270%;
+    background-position-x: 80%;
+    width: 210px;
+    height: 264px;
+    border: 3px solid white;
+}
+.photo4 {
+    position: relative;
+    bottom: 176px;
+    background-image: url(/assets/sk8er-1.png);
+    background-size: 110%;
+    background-position: 100%;
+    width: 432px;
+    height: 130px;
+    border: 3px solid white;
+}

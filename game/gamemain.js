@@ -58,11 +58,9 @@ if ((hp === 0) && (isAlive === false)) {
 
 if ((hp === 20) && (isAlive === true)) {
     alert('You have found shelter for the night.')
-}
-
-if ((hp === 20) && (isAlive === true)) {
     checkStatus = confirm('You are safe and have won the game! Goodbye.')
 }
+
 
 
 
